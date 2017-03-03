@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<title>Friday Front-End</title>
+	<style>
+		body {
+			align-items: center;
+			background-size: cover;
+			background: url("ffbg.png") center;
+			color: #333;
+			display: flex;
+			font-family: helvetica, sans-serif;
+			height: 100vh;
+			justify-content: center;
+		}
+		a {
+			color: #E70061;
+			text-decoration: none;
+		}
+		a:hover,
+		a:focus {
+			text-decoration: underline;
+		}
+		.card {
+			background: white;
+			border-radius: 3px;
+			display: block;
+			padding: 60px;
+			text-align: center;
+		}
+		h1 {
+			color: #E70061;
+			font-family: inconsolata, consolas, monaco, monospace;
+		}
+		h1, p {
+			margin: 1.5rem 0;
+			line-height: 1.1;
+		}
+		img {
+			max-width: 100%;
+			height: auto !important;
+		}
+		.btn {
+			border-radius: .25rem;
+			border: 2px solid #E70061;
+			display: inline-block;
+			line-height: 1;
+			padding: .3rem .75rem;
+			margin: 0 .5rem;
+		}
+		.btn:hover,
+		.btn:focus {
+			background: #E70061;
+			color: white;
+			text-decoration: none;
+		}
+		.footnote {
+			font-size: .8rem;
+			font-style: italic;
+			margin: 3rem 0 0;
+			opacity: .5;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<a href="http://tinyletter.com/fridayfrontend/"><img src="friday-front-end-badge.png" alt="Friday Front-End" width="256" height="256"></a>
+		<h1>Friday Front-End</h1>
+		<p>
+			Front-end development links
+			<a href="http://twitter.com/fridayfrontend">tweeted</a>&nbsp;daily,
+			<a href="http://tinyletter.com/fridayfrontend">emailed</a>&nbsp;weekly.
+		</p>
+		<p>
+			<a href="http://twitter.com/fridayfrontend" class="btn">Twitter</a>
+			<a href="http://tinyletter.com/fridayfrontend/" class="btn">Newsletter</a>
+		</p>
+		<p>
+			<a href="mailto:scott+suggestion@fridayfrontend.com" class="btn">Suggest a Link</a>
+		</p>
+		<p class="footnote">Assembled with love by <a href="http://twitter.com/spaceninja/">Scott Vandehey</a></p>
+	</div>
+</body>
+</html>
